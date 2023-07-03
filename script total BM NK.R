@@ -7,7 +7,7 @@
 # --------------------------------------------------- #
 # READ-ME (IMPORTANT)
 # This script is meant to generate the NK cell object by in silico selection of NK cells from the CD38+ immune dataset. 
-# The CD38+ immune data from individual patients is first integrated per timepoint en per source (controls, newly diagnosed MM, C4D28, D100, W25, W52, W105 and relapse).
+# The CD38+ immune data from individual patients is first integrated per timepoint and per source (controls, newly diagnosed MM, C4D28, D100, W25, W52, W105 and relapse).
 # The timepoints and sources are then integrated into one major CD38+ immune dataset. 
 # NK cells are then subsetted from the major CD38+ immune object by selection on KLRD1, KLRF1, NKG7 and GNLY transcription (Yang et al.)
 # Finally NK cells are reprocessed in to the final major NK cell object. 
